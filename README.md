@@ -1,5 +1,6 @@
 # Air Quality Card (Advanced)
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+[![GitHub Release](https://img.shields.io/github/v/release/wanball/air-quality-card?style=for-the-badge)](https://github.com/wanball/air-quality-card/releases)
 
 Inspired by the Flower Card by Olen (https://github.com/Olen/lovelace-flower-card).
 
@@ -7,8 +8,6 @@ Inspired by the Flower Card by Olen (https://github.com/Olen/lovelace-flower-car
 This project is a heavily modified and enhanced version based on the original [air-quality-card](https://github.com/UrbanTechIO/air-quality-card) developed by [UrbanTechIO](https://github.com/UrbanTechIO). Licensed under the MIT License.
 
 ---
-
-### [English Description]
 
 An advanced custom Lovelace card for Home Assistant designed to comprehensively visualize air quality, climate, and environmental metrics. It supports object-level configuration, custom range overrides, dynamic icons, responsive grid hidden options via container queries, and up to 20+ specialized sensors.
 
@@ -90,7 +89,6 @@ template:
 ```
 ---
 
-### [Thai Description]
 Custom Lovelace Card สำหรับ Home Assistant ออกแบบมาเพื่อแสดงผลค่าชี้วัดคุณภาพอากาศ สภาพภูมิอากาศ และสภาพแวดล้อมอย่างละเอียดรอบด้าน รองรับการตั้งค่าโครงสร้างข้อมูลแบบวัตถุ (Object Config) แยกรายเซ็นเซอร์, ปรับเปลี่ยนเกณฑ์ช่วงปลอดภัย, ปรับเปลี่ยนไอคอน, มีระบบซ่อนอัจฉริยะเมื่อการ์ดอยู่ในคอลัมน์ที่แคบ (Container Queries) และรองรับเซ็นเซอร์เฉพาะทางมากกว่า 20 ชนิด
 
 #### คุณสมบัติเด่น
