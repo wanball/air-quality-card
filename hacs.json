@@ -1,11 +1,11 @@
 {
-  "name": "Air Quality Card",
-  "description": "A custom Lovelace card to visualize air quality sensors with healthy range indicators",
-  "filename": "air-quality-card.v1.0.1.js",
+  "name": "Air Quality Card (Advanced)",
+  "description": "A custom Lovelace card to visualize comprehensive air quality and climate sensors with responsive layouts, object configs, and healthy range indicators.",
+  "filename": "air-quality-card.js",
   "type": "module",
   "render_readme": true,
-  "domains": ["lovelace"],
-  "iot_class": "local_polling",
+  "domains": [
+    "lovelace"
+  ],
   "country": "any"
 }
-
