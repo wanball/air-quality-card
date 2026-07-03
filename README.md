@@ -1,5 +1,6 @@
 # Air Quality Card (Advanced)
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+
 Inspired by the Flower Card by Olen (https://github.com/Olen/lovelace-flower-card).
 
 ## Credits
