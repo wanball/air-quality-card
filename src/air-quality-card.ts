@@ -578,7 +578,7 @@ export class AirQualityCard extends LitElement {
       }
     }
 
-    const badgeImage = RATING_IMAGES[ratingKey];
+    //const badgeImage = RATING_IMAGES[ratingKey];
 
     return html`
       <ha-card
