@@ -267,6 +267,7 @@ const RATING_IMAGES: Record<string, string> = {
   moderate: "/local/community/air-quality-card/img/moderate.png",
   poor: "/local/community/air-quality-card/img/poor.png",
   unhealthy: "/local/community/air-quality-card/img/unhealthy.png",
+  hazardous: "/local/community/air-quality-card/img/hazardous.png",
 };
 
 export class AirQualityCard extends LitElement {

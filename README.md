@@ -81,8 +81,10 @@ template:
             moderate
           {% elif aqi_state in ['unhealthy_sensitive', 'poor', '3'] %}
             poor
-          {% elif aqi_state in ['unhealthy', 'very_unhealthy', 'hazardous', '4', '5'] %}
+          {% elif us_aqi in ['unhealthy', 'very_unhealthy'] %}
             unhealthy
+          {% elif us_aqi == 'hazardous' %}
+            hazardous
           {% else %}
             moderate
           {% endif %}
@@ -162,8 +164,10 @@ template:
             moderate
           {% elif aqi_state in ['unhealthy_sensitive', 'poor', '3'] %}
             poor
-          {% elif aqi_state in ['unhealthy', 'very_unhealthy', 'hazardous', '4', '5'] %}
+          {% elif us_aqi in ['unhealthy', 'very_unhealthy'] %}
             unhealthy
+          {% elif us_aqi == 'hazardous' %}
+            hazardous
           {% else %}
             moderate
           {% endif %}
