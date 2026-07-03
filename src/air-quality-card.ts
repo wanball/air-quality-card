@@ -404,9 +404,11 @@ export class AirQualityCard extends LitElement {
       opacity: 1;
     }
     /* === เงื่อนไขพิเศษซ่อนเซ็นเซอร์เมื่ออยู่ในช่วงความกว้างที่ต้องการ === */
-    @container (min-width: 250px) and (max-width: 380px) {
-      .low-priority-sensor {
-        display: none !important;
+    @media (min-width: 768px) {
+      @container (min-width: 250px) and (max-width: 380px) {
+        .low-priority-sensor {
+          display: none !important;
+        }
       }
     }
   `;
