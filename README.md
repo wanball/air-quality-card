@@ -49,7 +49,7 @@ entities:
     min: 0.8
     max: 1.2
   rating: sensor.air_quality_overall_rating
-
+```
 ---
 
 ### [Thai Description]
@@ -95,3 +95,5 @@ entities:
     min: 0.8
     max: 1.2
   rating: sensor.air_quality_overall_rating
+```
+---
