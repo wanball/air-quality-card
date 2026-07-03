@@ -586,7 +586,18 @@ export class AirQualityCard extends LitElement {
           .height || "auto"};"
       >
         <div class="card-wrapper">
-          <img class="badge" src="${badgeImage}" alt="${rawState}" />
+          <img 
+            class="badge" 
+            src="/hacsfiles/air-quality-card/img/${ratingKey}.png" 
+            alt="${rawState}" 
+            @error=${(e: Event) => {
+              const img = e.target as HTMLImageElement;
+              const githubFallback = `https://raw.githubusercontent.com/wanball/air-quality-card/main/img/${ratingKey}.png`;
+              if (img.src !== githubFallback) {
+                img.src = githubFallback;
+              }
+            }}
+          />
           <div class="header">
             <div class="title">
               ${title ? `${title} - ${rawState}` : rawState}
