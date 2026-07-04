@@ -90,7 +90,9 @@ template:
           {% endif %}
 ```
 ---
-  ![Air Quality Card](./img/Demo.png)
+  ![Air Quality Card](./img/Demo1.png)
+  ![Air Quality Card](./img/Demo2.png)
+  ![Air Quality Card](./img/Demo3.png)
 
 Custom Lovelace Card สำหรับ Home Assistant ออกแบบมาเพื่อแสดงผลค่าชี้วัดคุณภาพอากาศ สภาพภูมิอากาศ และสภาพแวดล้อมอย่างละเอียดรอบด้าน รองรับการตั้งค่าโครงสร้างข้อมูลแบบวัตถุ (Object Config) แยกรายเซ็นเซอร์, ปรับเปลี่ยนเกณฑ์ช่วงปลอดภัย, ปรับเปลี่ยนไอคอน, มีระบบซ่อนอัจฉริยะเมื่อการ์ดอยู่ในคอลัมน์ที่แคบ และรองรับเซ็นเซอร์เฉพาะทางมากกว่า 20 ชนิด
 
@@ -173,3 +175,5 @@ template:
           {% endif %}
 ```
 ---
+
+

@@ -309,7 +309,8 @@ export class AirQualityCard extends LitElement {
       background: var(--secondary-background-color);
       padding: 10px;
       border-radius: 8px;
-      line-height: 1.4;
+      line-height: 1.4;      
+      text-transform: capitalize;
     }
     .header {
       display: flex;
@@ -318,8 +319,9 @@ export class AirQualityCard extends LitElement {
       margin-bottom: 12px;
     }
     .title {
-      margin-left: 70px;
+      margin-left: 80px;
       font-weight: bold;
+      text-transform: capitalize;
     }
     .attributes {
       display: grid;
